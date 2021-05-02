@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Grain Association of Nigeria</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,700|Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* The Modal (background) */
+        .modal {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 0px; /* Location of the box */
+          margin: 0 auto;
+          top: 45%;
+          left: 30%;
+          width: 40%; /* Full width */
+          height: 30%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          /*background-color: rgb(0%,187%,97%);*/
+        }
+
+        /* Modal Content */
+        /*.modal-content {
+          background-color: #f0e68c;
+          margin: auto;
+          padding: 10px;
+          border: 1px solid #888;
+          width: 100%;
+          height: 100%;
+        }*/
+
+        /* The Close Button */
+        .close {
+          color: #aaaaaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: #000;
+          text-decoration: none;
+          cursor: pointer;
+        } 
+    </style>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  
+  <div class="site-wrap"  id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+
+    <div class="top-bar" style="background-color: darkolivegreen;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="tel:5554280940" class="text-white" target="_blank"><span class="mr-2 text-white icon-phone"></span> <span class="d-none text-white d-md-inline-block">5554280940 </span></a>
+            <span class="mx-md-2 d-inline-block"></span>
+            <a href="emailDataToJsp.html" class="text-white"><span class="mr-2 text-white icon-envelope-open-o"></span> <span class="d-none text-white d-md-inline-block">grainassoc_nig@yahoo.com</span></a>  
+
+            <div class="float-right">            
+                <a href="https://m.me/95100348886" id="facebook-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-facebook"></span> <span class="d-none text-white d-md-inline-block">FaceBook </span></a>
+                <span class="mx-md-2 d-inline-block"></span>
+                <a href="https://twitter.com/messages/compose?recipient_id=3805104374" id="twitter-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-twitter"></span> <span class="d-none text-white d-md-inline-block">Twitter </span></a>
+                <span class="mx-md-2 d-inline-block"></span>
+                <a href="https://instagram.com/username" id="instagram-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-instagram"></span> <span class="d-none text-white d-md-inline-block">Instagram</span></a>
+            </div>
+
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+      
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner"  style="background-color: green; ">
+
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          
+            
+            <div class="site-logo">
+                <a href="index.html" class="text-black"><span class="text-primary">MAN</span></a>
+            </div>
+            
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                <li><a href="index.html" class="nav-link">Home</a></li> 
+                <li class="has-children">
+                  <a href="#data-section" class="nav-link">Data Section</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#groups-section" class="nav-link">Group Data Form</a></li>
+                    <li><a href="#officers-section" class="nav-link">Officer data Form</a></li>                    
+                    <li><a href="#aggregations-section" class="nav-link">Aggregation Data Form</a></li>
+                    <li><a href="#farmers-section" class="nav-link">Farmer Data Form</a></li>
+                    <li><a href="#farms-section" class="nav-link">Farm Data Form</a></li>
+                    <li><a href="#farminputs-section" class="nav-link">Farm Input Data Form</a></li>
+                    <li><a href="#loans-section" class="nav-link">Loan Data Form</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#query-section" class="nav-link">Report Links</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="total_prod.html" class="nav-link">Total production expected</a></li>
+                    <li><a href="actual_prod.html" class="nav-link">Actual Production</a></li>
+                    <li><a href="economy_scale.html" class="nav-link">Economy of Scale</a></li>
+                    <li><a href="expected_income.html" class="nav-link">Expected income</a></li>
+                    <li><a href="actual_income.html" class="nav-link">Actual income</a></li>
+                    <li><a href="total_input_supplied.html" class="nav-link">Total Input supplied</a></li>
+                    <li><a href="total_loan_granted.html" class="nav-link">Total loans granted</a></li>
+                    <li><a href="total_loan_recovered.html" class="nav-link">Total Loan recovery</a></li>
+                  </ul>
+                </li>
+                <!-- <li><a href="update.html" class="nav-link">Record Update</a></li> --> 
+                <li><a href="index.html#services-section" class="nav-link">Services</a></li> 
+                <!-- <li><a href="index.html#press-section" class="nav-link">Press</a></li>                
+                <li><a href="index.html#testimonials-section" class="nav-link">Testimonials</a></li> -->
+                <li><a href="index.html#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+              </nav>
+          
+            </div>
+
+          <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+        </div>
+      </div>
+      
+    </header>
+         
+    <div class="site-section bg-light" id="login-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>To access database</b></span>
+                <h2 class="hdx" style="color: green ;">LOG IN</h2>                            
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="loginform" name="loginform" method="POST" action="#">             
+            <div class="form-row">       	 
+              <div class="form-group col-md-6">
+                <label for="lgin-phonenum">Phone#</label>
+                <input type="text" class="form-control" id="lgin-phonenum" value="">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lgin-password">Password</label>
+                <input type="password" class="form-control" id="lgin-password" value="">
+              </div>            
+            </div>               
+            <div class="form-row">
+                <div class="col-md-6 ml-left">
+                    <input name="btnlogin" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>         
+        </form>                               
+          </div>
+      </div>
+    </div> 
+      
+    <div class="site-section bg-light" id="groups-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Group Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW GROUP'S RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="groupform" name="groupform" method="POST" action="#"> 
+            <div class="form-row">       	 
+              <div class="form-group col-md-6">
+                <label for="grp-name">Group Name</label>
+                <input type="text" class="form-control" id="grp-name" value="">
+              </div>   
+              <div class="form-group col-md-6">
+                <label for="grp-ward">Group Ward</label>
+                <input type="text" class="form-control" id="grp-ward" value="">
+              </div>
+            </div> 
+            <div class="form-row">              
+              <div class="form-group col-md-6">
+                <label for="grp-state">Group State</label>
+                <select id="grp-state" class="form-control" onchange="retreiveLocalGovts(this); configureGroupLGVTAS();">
+                    <option value="nap" selected="selected">State .........</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="FCT-Abuja">FCT-Abuja</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select> 
+              </div> 
+              <div class="form-group col-md-6">
+                <label for="grp-lgvtarea">Group Local Government</label>
+                <select id="grp-lgvtarea" class="form-control">
+                    <option value="nap" selected="selected">Local Government .........</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-12">
+                <label for="grp-address">Group Address</label>
+                <input type="text" class="form-control" id="grp-address" value="">
+              </div>             
+            </div>            
+            <div class="form-row">       	 
+              <div class="form-group col-md-12">
+                <label for="grp-crops">Crops Handled:</label>
+              </div>             
+            </div>
+            <div class="form-row"> 
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox1" value="Maize">
+                <label class="form-check-label" for="inlineCheckbox1">Maize</label>
+              </div>
+              </div>
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox2" value="Paddy Rice">
+                <label class="form-check-label" for="inlineCheckbox2">Paddy Rice</label>
+              </div>
+              </div> 
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox3" value="Sorghum">
+                  <label class="form-check-label" for="inlineCheckbox3">Sorghum</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">              
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox4" value="Soya Bean">
+                <label class="form-check-label" for="inlineCheckbox2">Soya Bean</label>
+              </div>
+              </div> 
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox5" value="Beans">
+                  <label class="form-check-label" for="inlineCheckbox3">Beans</label>
+                </div>
+              </div> 
+              <div class="form-group col-md-3">
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" name="crop-handled" id="grp-Checkbox6" value="Millet">
+                  <label class="form-check-label" for="inlineCheckbox3">Millet</label>
+                </div>
+              </div> 
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btngroup" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div> 
+    
+    <div class="site-section bg-light" id="officers-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Officer Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW OFFICER'S RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="officerform" name="officerform" method="POST" action="#"> 
+            <div class="form-row"> 
+              <div class="form-group col-md-6">                  
+                  <label for="off-groupnum">Group</label>
+                  <select id="off-groupnum" class="form-control">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-4">
+                <label for="off-firstname">First Name</label>
+                <input type="text" class="form-control" id="off-firstname" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="off-middlename">Middle Name</label>
+                <input type="text" class="form-control" id="off-middlename" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="off-lastname">Last Name</label>
+                <input type="text" class="form-control" id="off-lastname" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-5">
+                <label for="off-office">Office</label>
+                <input type="text" class="form-control" id="off-office" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="off-phonenum">Phone#</label>
+                <input type="text" class="form-control" id="off-phonenum" value="">
+              </div>
+            <!-- </div>
+            <div class="form-row">-->               
+              <div class="form-group col-md-2">
+                <label for="off-bvn">BVN</label>
+                <input type="text" class="form-control" id="off-bvn" value="">
+              </div>
+              <div class="form-group col-md-2">
+                <label for="off-nim">NIM</label>
+                <input type="text" class="form-control" id="off-nim" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-12">
+                <label for="off-homeaddress">Home Address (Street, Town, LGvt and State)</label>
+                <input type="text" class="form-control" id="off-homeaddress" value="">
+              </div>              
+            </div>
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnOfficer" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div> 
+      
+    <div class="site-section bg-light" id="aggregations-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Aggregation Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW AGGREGATION RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="aggregationform" name="aggregationform" method="POST" action="#">
+            <div class="form-row">  
+              <div class="form-group col-md-6">
+                <label for="aggr-groupnum">Group#</label>
+                  <select id="aggr-groupnum" class="form-control">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div>
+            </div> 
+            <div class="form-row">     
+              <div class="form-group col-md-4">
+                <label for="aggr-town">Town</label>
+                <input type="text" class="form-control" id="aggr-town" value="">
+              </div>  
+              <div class="form-group col-md-4">
+                <label for="aggr-state">State Located</label>
+                <select id="aggr-state" class="form-control" onchange="retreiveLocalGovts(this); configureAggregationLGVTAS();">
+                    <option value="nap" selected="selected">State .........</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="FCT-Abuja">FCT-Abuja</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select>               
+              </div>
+              <div class="form-group col-md-4">
+                <label for="aggr-localgvt">Local Government</label>
+                <select id="aggr-localgvt" class="form-control">
+                    <option value="nap" selected="selected">Local Government .........</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">   
+              <div class="form-group col-md-6">
+                 <label for="aggr-ward">Ward</label>
+                <input type="text" class="form-control" id="aggr-ward" value="">
+              </div> 
+              <div class="form-group col-md-6">
+                <label for="aggr-nextlevel">Next Level</label>
+                <input type="text" class="form-control" id="aggr-nextlevel" value="">
+              </div>
+            </div>                      
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnaggregation" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>      
+      
+    <div class="site-section bg-light" id="farmers-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Farmer Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW FARMER'S RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="farmerform" name="farmerform" method="POST" action="#"> 
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="fmr-groupnum">Group</label>
+                  <select id="fmr-groupnum" class="form-control">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-4">
+                <label for="fmr-firstname">First Name</label>
+                <input type="text" class="form-control" id="fmr-firstname" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-middlename">Middle Name</label>
+                <input type="text" class="form-control" id="fmr-middlename" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-lastname">Last Name</label>
+                <input type="text" class="form-control" id="fmr-lastname" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-4">
+                <label for="fmr-state">State of Origin</label>
+                <select id="fmr-state" class="form-control" onchange="retreiveLocalGovts(this); configureFarmerLGVTAS();">
+                    <option value="nap" selected="selected">State .........</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="FCT-Abuja">FCT-Abuja</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-localgvt">Local Government</label>
+                <select id="fmr-localgvt" class="form-control">
+                    <option value="nap" selected="selected">Local Government .........</option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-ward">Ward</label>
+                <input type="text" class="form-control" id="fmr-ward" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-12">
+                <label for="fmr-homeaddress">Home Address (Street, Town, LGvt and State)</label>
+                <input type="text" class="form-control" id="fmr-homeaddress" value="">
+              </div>              
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="fmr-phonenum">Phone#</label>
+                <input type="text" class="form-control" id="fmr-phonenum"  value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-bvn">BVN</label>
+                <input type="text" class="form-control" id="fmr-bvn" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="fmr-nim">NIM</label>
+                <input type="text" class="form-control" id="fmr-nim"  value="">
+              </div>
+            </div>            
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnfarmer" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>
+      
+    <div class="site-section bg-light" id="farms-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Farm Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW FARM RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="farmform" name="farmform" method="POST" action="#"> 
+            <div class="form-row">               
+              <div class="form-group col-md-6">
+                  <label for="farm-groupnum">Group#</label>
+                  <select id="farm-groupnum" class="form-control" onchange="farmFmrInGroup(this);">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div>
+              <div class="form-group col-md-6">
+                  <label for="farm-farmernum">Farmer#</label>
+                  <select id="farm-farmernum" class="form-control">
+                      <option value="nap" selected="selected">Farmer# .........</option>
+                  </select>
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-3">
+                <label for="farm-longi1">First Longitude</label>
+                <input type="text" class="form-control" id="farm-longi1" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-latit1">First Latitude</label>
+                <input type="text" class="form-control" id="farm-latit1" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-longi2">Second Longitude</label>
+                <input type="text" class="form-control" id="farm-longi2" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-latit2">Second Latitude</label>
+                <input type="text" class="form-control" id="farm-latit2" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-3">
+                <label for="farm-longi3">Third Longitude</label>
+                <input type="text" class="form-control" id="farm-longi3" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-latit3">Third Latitude</label>
+                <input type="text" class="form-control" id="farm-latit3" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-longi4">Fourth Longitude</label>
+                <input type="text" class="form-control" id="farm-longi4" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-latit4">Fourth Latitude</label>
+                <input type="text" class="form-control" id="farm-latit4" value="">
+              </div>
+            </div>
+            <div class="form-row"> 
+              <div class="form-group col-md-12">
+                <label for="farm-community">Community</label>
+                <input type="text" class="form-control" id="farm-community" value="">
+              </div>
+            </div>
+            <div class="form-row"> 
+              <div class="form-group col-md-3">
+                <label for="farm-area">Farm Area (Hec)</label>
+                <input type="text" class="form-control" id="farm-area" value="">
+              </div>            
+            
+              <div class="form-group col-md-3">
+                <label for="farm-state">State</label>
+                <select id="farm-state" class="form-control" onchange="retreiveLocalGovts(this); configureFarmLGVTAS();">
+                    <option value="nap" selected="selected">State .........</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="FCT-Abuja">FCT-Abuja</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-localgvt">Local Gvt</label>
+                <select id="farm-localgvt" class="form-control">
+                    <option value="nap" selected="selected">Local Government .........</option>
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="farm-ward">Ward</label>
+                <input type="text" class="form-control" id="farm-ward" value="">
+              </div>
+            </div>                 
+            <div class="form-row">       	 
+              <div class="form-group col-md-4">
+                <label for="farm-cropplanted">Crop Planted</label>
+                <input type="text" class="form-control" id="farm-cropplanted" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="farm-areaplanted">Area Planted</label>
+                <input type="text" class="form-control" id="farm-areaplanted" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="farm-year">Year</label>
+                <input type="text" class="form-control" id="farm-year" value="">
+              </div>
+            </div>
+            <div class="form-row">       	 
+              <div class="form-group col-md-4">
+                <label for="farm-harvest">Quantity Harvested</label>
+                <input type="text" class="form-control" id="farm-harvest" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="farm-networth">Net Worth</label>
+                <input type="text" class="form-control" id="farm-networth" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="farm-income">Income</label>
+                <input type="text" class="form-control" id="farm-income" value="">
+              </div>
+            </div>   
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnfarm" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>  
+      
+    <div class="site-section bg-light" id="farminputs-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Farm Inputs Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW FARMINPUTS RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="farminputform" name="farminputform" method="POST" action="#"> 
+            <div class="form-row">    
+              <div class="form-group col-md-6">
+                  <label for="finp-groupnum">Group#</label>
+                  <select id="finp-groupnum" class="form-control" onchange="farmInputFmrInGroup(this);">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div> 
+              <div class="form-group col-md-6">
+                  <label for="finp-farmernum">Farmer#</label>
+                  <select id="finp-farmernum" class="form-control">
+                      <option value="nap" selected="selected">Farmer# .........</option>
+                  </select>
+              </div>              
+           </div>
+           <div class="form-row">  
+              <div class="form-group col-md-6">
+                <label for="finp-name">Farm Input</label>
+                <input type="text" class="form-control" id="finp-name" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="finp-year">Year</label>
+                <input type="text" class="form-control" id="finp-year" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="finp-cost">Input Cost</label>
+                <input type="text" class="form-control" id="finp-cost" value="">
+              </div>
+            </div>                                   
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnfarminput" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>
+      
+    <div class="site-section bg-light" id="loans-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Loans Data:</b></span>
+                <h2 class="hdx" style="color: green ;">CREATE NEW LOAN'S RECORD</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="loanform" name="loanform" method="POST" action="#"> 
+            <div class="form-row">   
+              <div class="form-group col-md-6">
+                  <label for="fln-groupnum">Group#</label>
+                  <select id="fln-groupnum" class="form-control" onchange="loanFmrInGroup(this);">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div> 
+              <div class="form-group col-md-6">
+                  <label for="fln-farmernum">Farmer#</label>
+                  <select id="fln-farmernum" class="form-control">
+                      <option value="nap" selected="selected">Farmer# .........</option>
+                  </select>
+              </div>              
+            </div>
+            <div class="form-row">  
+              <div class="form-group col-md-6">
+                <label for="fln-desc">Description</label>
+                <input type="text" class="form-control" id="fln-desc" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="fln-loan">Amount</label>
+                <input type="text" class="form-control" id="fln-loan" value="">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="fln-payment">Payment</label>
+                <input type="text" class="form-control" id="fln-payment" value="">
+              </div>            
+            </div>               
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnfmrloan" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>
+    
+    <div class="site-section bg-light" id="loan-repayment-section" style="display:none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5" data-aos-delay="">
+            <div class="block-heading-1">
+                <span><b>Loans Data:</b></span>
+                <h2 class="hdx" style="color: green ;">LOAN REPAYMENT</h2>                            
+            </div>
+          </div>
+        </div>
+          
+        <div class="row">
+        </div>
+                  
+        <div class="col-lg-10" data-aos-delay="100">
+            <form id="loanrepaymentform" name="loanrepaymentform" method="POST" action="#"> 
+            <div class="form-row">   
+              <div class="form-group col-md-6">
+                  <label for="lrep-groupnum">Group#</label>
+                  <select id="lrep-groupnum" class="form-control" onchange="loanRepFmrInGroup(this);">
+                      <option value="nap" selected="selected">Group# .........</option>
+                  </select>
+              </div> 
+              <div class="form-group col-md-6">
+                  <label for="lrep-farmernum">Farmer#</label>
+                  <select id="lrep-farmernum" class="form-control" onchange="farmerloansList(this);">
+                      <option value="nap" selected="selected">Farmer# .........</option>
+                  </select>
+              </div>              
+            </div>
+            <div class="form-row">  
+              <div class="form-group col-md-6">
+                  <label for="lrep-loannum">Loan#</label>
+                  <select id="lrep-loannum" class="form-control" onchange="reteiveLoanStatus(this);">
+                      <option value="nap" selected="selected">Loan# .........</option>
+                  </select>
+              </div>               
+            </div>               
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="lrep-loan">Loan Amount</label>
+                <input type="text" class="form-control" id="lrep-loan" value="">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="lrep-amountpaid">Amount Payment</label>
+                <input type="text" class="form-control" id="lrep-amountpaid" value="">
+              </div> 
+              <div class="form-group col-md-4">
+                <label for="lrep-newpayment">New Payment</label>
+                <input type="text" class="form-control" id="lrep-newpayment" value="">
+              </div> 
+            </div>               
+            <div class="form-row">
+                <div class="col-md-3 ml-left">
+                    <input name="btnfmrlnrep" type="submit" placeholder="Submit" class="btn btn-block text-white" style="background-color: green; ">
+                </div>
+            </div>  
+        </form>                               
+          </div>
+      </div>
+    </div>
+      
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content" style="background-color: #ffcc00; font-size:85%; color: black;">
+            <span class="close">&times;</span>
+            <p id="msg_para"></p>
+        </div>
+    </div> 
+      
+    <footer class="ftco-footer ftco-section" style="background-color: black; ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="footer-heading mb-4" style="color: white;">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4" style="color: white;">Features</h2>
+                <ul class="list-unstyled"> 
+                <li><a href="index.html#home-section" class="text-white"><span class="d-none text-white d-md-inline-block">Home</span></a></li>
+                <li><a href="index.html#services-section" class="text-white"><span class="d-none text-white d-md-inline-block">Services</span></a></li>
+                <li><a href="report.html" class="text-white"><span class="d-none text-white d-md-inline-block">Reports</span></a></li>
+                <li><a href="index.html#contact-section" class="text-white"><span class="d-none text-white d-md-inline-block">Contact</span></a></li> 
+              </ul>
+                
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+              <h2 class="footer-heading mb-4" style="color: white;">Follow Us</h2>
+              <ul class="ftco-footer-social list-unstyled ">
+                <li class="ftco-animate"><a href="https://m.me/95100348886" id="facebook-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-facebook"></span> <span class="d-none d-md-inline-block">FaceBook</span></a></li>
+                <li class="ftco-animate"><a href="https://twitter.com/messages/compose?recipient_id=3805104374" id="twitter-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a></li>                                    
+                <li class="ftco-animate"><a href="https://instagram.com/username" id="instagram-button" class="text-white" target="_blank"><span class="mr-2 text-white icon-instagram"></span> <span class="d-none d-md-inline-block">Instagram</span></a></li>
+              </ul>              
+          </div>
+        </div>
+        <div class="row">    
+            <div class="col-md-6 col-lg">
+                <div class="ftco-footer-widget mb-4">
+                  <h3 class="ftco-heading-2">Office Address</h3>
+                  <p><span class="d-none text-white d-md-inline-block">203 Fake St. Mountain View, San Francisco, California, USA</span></p>
+
+                </div>
+            </div> 
+            <div class="col-md-6 col-lg">
+                <div class="ftco-footer-widget mb-4">
+                    <h3 class="ftco-heading-2">Contact information</h3>
+                    <div class="block-23 mb-3">
+                          <ul>
+                            <li><a href="tel:5554280940" class="text-white" target="_blank"><span class="d-none text-white d-md-inline-block">95100348886</span></a></li>
+                            <li><a href="emailDataToJsp.html" class="text-white"><span class="d-none text-white d-md-inline-block">TibAmerica2@yahoo.com</span></a></li>
+                          </ul>
+                    </div>
+                </div>
+              </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p class="copyright"><small>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </small></p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="records.js"></script>
+  
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  
+  <script src="js/main.js"></script>
+  
+  <script async src="https://cdn.rawgit.com/oauth-io/oauth-js/c5af4519/dist/oauth.js"></script> 
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  
+  <script type="text/javascript">
+    // <![CDATA[
+    (function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+            js=d.createElement(s);
+            js.id=id;
+            js.async=true;
+            js.src="//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
+        }
+    }(document,"script","twitter-wjs"));
+    // ]]>
+    
+     // Get the modal
+    var modal = document.getElementById("myModal");
+
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    };
+  </script>  
+  </body>
+</html>

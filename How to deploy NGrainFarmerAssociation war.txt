@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.18363.1440]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\CONALDES>cd..
+
+C:\Users>cd..
+
+C:\>cd glassfish5\glassfish\bin
+
+C:\glassfish5\glassfish\bin>asadmin undeploy c:\Users\CONALDES\NGrainFarmerAssociation
+Command undeploy executed successfully.
+
+C:\glassfish5\glassfish\bin>asadmin deploy c:\Users\CONALDES\NGrainFarmerAssociation.war
+Application deployed with name NGrainFarmerAssociation.
+Command deploy executed successfully.
+
+C:\glassfish5\glassfish\bin>
